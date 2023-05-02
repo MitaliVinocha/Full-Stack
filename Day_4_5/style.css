@@ -62,22 +62,23 @@ p {
 
 /* Playing with Div and Display */
 .square{
-    height: 400px;
-    width: 400px;
+    height: 100px;
+    width: 100px;
 }
 
 .firstBox {
     background-color: red;
-    display: inline;
-   /* position: relative; */
+    display:block;
+   position: relative;
 }
 
 .secondBox {
-    background-color: green; 
-    /* display: inline;
+    background-color: rgb(5, 85, 5);
+     display:block ;
+    display: inline;
     position: relative;
-    bottom: 90px;
-    left: 10px; */
+    bottom: -200px;
+    left: -20px;
     /* margin-inline-start: 100px; */
     /* display: none;   */
     /* visibility: hidden; */
@@ -85,12 +86,12 @@ p {
 
 .thirdBox {
     background-color: blue; 
-    position: relative;
-    bottom: 180px;
-    left: 20px;
-    /* display: inline; */
-    margin-inline-start: 200px; 
-    margin-block-start: -200px;   
+    /* position: ; */
+    /* bottom: 180px;
+    left: 20px; */
+     display: block;
+    /* margin-inline-start: 200px; 
+    margin-block-start: -200px;     */
 }
 
 .red_apple{
