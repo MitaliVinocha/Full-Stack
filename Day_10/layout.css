@@ -1,0 +1,49 @@
+body{
+    background-color: ivory;
+    text-align: center;
+}
+.container{
+    display: flex; /*width will be as according to text*/
+    /*flex-direction: row-reverse;*/
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   /* height: 1500px; */
+   flex-wrap: wrap;
+   /* gap: 30px; */
+   column-gap: 30px;
+   row-gap: 10px;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+}
+.red{
+    background-color: red;
+    width: 300px;
+}
+
+.pink{
+    background-color: pink;
+    height: 280px;
+}
+.mazenta{
+    background-color: rgb(214, 18, 214);
+}
+.purple{
+    background-color: purple;
+}
+.yellow{
+    background-color: yellow;
+}
+.brown{
+    background-color: brown;
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
