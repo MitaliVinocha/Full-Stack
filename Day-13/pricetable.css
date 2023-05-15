@@ -1,0 +1,108 @@
+
+body{
+    font-family: "Montserrat";
+    background-color: rgb(91, 183, 232);
+    padding-top: 90px;
+    flex-wrap: wrap;
+}
+h4{
+    margin: 5px auto;
+    padding: 0px;
+}
+
+.price-table{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    column-gap: 40px; 
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 40px;
+    padding-bottom: 16px;
+    padding-top: 30px;
+
+}
+
+.price-box{
+    text-align: center;
+    background-color: rgb(251, 236, 236);
+    /* padding: 50px 20px; */
+    height: 710px;
+    width: 300px;
+    border-radius: 15px;
+}
+.title{
+    text-align: center;
+    color: rgba(4, 29, 187, 0.914);
+    /* font-size: 30px; */
+    padding-top: 5px;
+    padding-bottom: 2px;
+    background-color: white;
+    /* margin-bottom: 0px; */
+
+
+}
+.pricing{
+    color:  rgba(4, 29, 187, 0.914);
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+
+.price-row{
+    padding-top: 0px;
+    /* display: flex; */
+    position: relative;
+    /* background-color: bisque; */
+    /* height: 90px; */
+    color: rgba(4, 29, 187, 0.914);
+}
+.ruppee{
+    font-size: -3px;
+    position: relative;
+    top: -15px;
+    left: -3px;
+}
+.price{
+    font-size: 40px;
+    font-weight: 1000px;
+}
+
+.tenure{
+    color:rgb(130, 129, 129);
+    font-size: 19px;
+
+}
+.price-row-cancel{
+    color:rgb(130, 129, 129);
+    font-size: 25px;
+    text-decoration: line-through;
+    padding-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.add-to-cart{
+    background-color:rgb(255, 81, 0); 
+    border-radius: 15px;
+    font-size: 1.75rem;
+    padding: 10px 20px;
+}
+
+.add-to-cart:hover{
+    background-color:rgb(255, 25, 0);
+
+}
+.features{
+    padding-top: 20px;
+    text-align: left;
+    line-height: 2;
+}
+.feature-cancel
+{
+    color: rgb(130, 129, 129);
+}
+.business{
+    color: rgb(255, 81, 0);
+}
